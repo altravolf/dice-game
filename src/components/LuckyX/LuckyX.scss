@@ -1,0 +1,57 @@
+.LuckyX {
+    text-align: center;
+
+    .won {
+        background-color: green;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        font-size: 3rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1rem 0;
+    }
+
+    .sum {
+        font-size: 2rem;
+        background-color: indigo;
+        display: inline-block;
+        padding: 3rem;
+        border-radius: 5px;
+        margin-bottom: 1.5rem;
+        color: white;
+    }
+
+    .button {
+        button {
+            background-color: white;
+            color: black;
+            padding: 1rem 1.3rem;
+            border: 2px solid black;
+            border-radius: 3px;
+            transition: 0.3s ease-in;
+            font-size: 1.5rem;
+
+            &:hover {
+                background-color: black;
+                color: white;
+                transition: 0.3s ease-out;
+                border-radius: 50px;
+            }
+        }
+
+        button[disabled] {
+            background-color: grey;
+            border-color: gray;
+            color: rgb(197, 197, 197);
+            border-radius: 3px;
+        }
+    }
+
+}
